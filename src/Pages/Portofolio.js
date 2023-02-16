@@ -3,7 +3,11 @@ import Menu from '../Menu.js';
 function Portofolio(props)  {
     return (
         <div>
-         <Menu/>   
+         <Menu/>
+         
+         <h1>Mon Portofolio</h1>
+
+         
         </div>
     );
 };
