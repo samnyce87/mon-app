@@ -14,7 +14,7 @@ ul {
   list-style: none;
   padding: 10px;
   
-  background: #000;
+  background: linear-gradient(45deg, rgb(156,14,15),midnightblue);
   display: flex;
   align-items: center;
   width: 100%;
