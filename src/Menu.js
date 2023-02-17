@@ -4,7 +4,7 @@ function Menu(props) {
     return (
         <div>
         <ul>
-            <NavLink to='/'>
+            <NavLink to='/mon-app'>
             <li>Accueil</li>
             </NavLink>
             <NavLink to='/Apropos'>

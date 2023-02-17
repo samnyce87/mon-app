@@ -14,7 +14,7 @@ function App() {
   return (
    <BrowserRouter>
   <Routes>
-    <Route path='/' element={<Accueil/>}/>
+    <Route path='/mon-app' element={<Accueil/>}/>
     <Route path='/Gallerie' element={<Gallerie/>}/>
     { <Route path='*' element={<Erreur/>}/> }
     <Route path='/Apropos' element={<Apropos/>}/>
