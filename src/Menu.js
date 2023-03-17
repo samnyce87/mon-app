@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 function Menu(props) {
     return (
-        <div>
+        <div class="Menu">
         <ul>
             <NavLink to='/'>
             <li>Accueil</li>
@@ -25,6 +25,13 @@ function Menu(props) {
             <NavLink to="/Caroussel">
             <li>Caroussel</li>
             </NavLink>
+            <NavLink to="/Login">
+            <li>Login</li>
+            </NavLink>
+            <NavLink to="/Register">
+            <li>Register</li>
+            </NavLink>
+            
             </ul>
         </div>
     );
