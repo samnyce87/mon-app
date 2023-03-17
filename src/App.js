@@ -13,6 +13,7 @@ import Caroussel from './Pages/Caroussel';
 
 function App() {
   return (
+    <div>
    <BrowserRouter>
   <Routes>
     <Route path='/' element={<Accueil/>}/>
@@ -24,7 +25,7 @@ function App() {
     <Route path='/Caroussel' element={<Caroussel/>}/>
   </Routes> 
    </BrowserRouter>
-
+</div>
    
   );
 };
