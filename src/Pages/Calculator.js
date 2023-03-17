@@ -1,5 +1,6 @@
-import './App.css';
-import Menu from './Menu.js';
+import '../App.css';
+import {React, useState}from "react";
+import Menu from '../Menu.js';
 
 function Calculator() {
   const [result, setResult]=useState("");
