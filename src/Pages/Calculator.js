@@ -1,5 +1,5 @@
 import './App.css';
-import Menu from '../Menu.js';
+import Menu from './Menu.js';
 
 function Calculator() {
   const [result, setResult]=useState("");

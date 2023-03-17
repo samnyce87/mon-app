@@ -12,7 +12,7 @@ import Contact from './Pages/Contact';
 import Caroussel from './Pages/Caroussel';
 import Calculator from './Pages/Calculator';
 import Login from "./Login";
-import Register from "./Pages/Register";
+import Register from "./Register";
 
 function App() {
   return (
