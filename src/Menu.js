@@ -25,6 +25,9 @@ function Menu(props) {
             <NavLink to="/Caroussel">
             <li>Caroussel</li>
             </NavLink>
+            <NavLink to="/Calculator">
+            <li>Calculator</li>
+            </NavLink>
             <NavLink to="/Login">
             <li>Login</li>
             </NavLink>
