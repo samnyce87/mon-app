@@ -22,8 +22,8 @@ function Menu(props) {
             <NavLink to='/Services'>
             <li>Services</li>
             </NavLink>
-            <NavLink to='/Erreur'>
-            <li>Erreur</li>
+            <NavLink to="/Caroussel">
+            <li>Caroussel</li>
             </NavLink>
             </ul>
         </div>
