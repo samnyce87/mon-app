@@ -34,7 +34,9 @@ function Menu(props) {
             <NavLink to="/Register">
             <li>Register</li>
             </NavLink>
-            
+            <NavLink to="/SortableItem">
+            <li>SortableItem</li>
+            </NavLink>
             </ul>
         </div>
     );
