@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import Menu from '../Menu.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 import  Container  from 'react-bootstrap/Container';
@@ -14,23 +15,13 @@ import{
 import {useState} from "react";
 import SortableItem from './SortableItem';
 
-function Services(props)  {
-    return (
-        <div>
-         <Menu/>
+function Formations(props) {
 
-
-         
-          <h1>Mes Services</h1>
-          
-
-        </div>
-    );
-};
-    
-     {
-  const [languages, setLanguages]=useState(["Javascript","Python", "typeScript"]);
+const [languages, setLanguages]=useState(["Javascript","Python", "typeScript"]);
   return (
+<div>
+    <Menu/>
+
     <DndContext
     collisionDetection={closestCenter}
     onDragEnd={handleDragEnd}
@@ -43,7 +34,7 @@ function Services(props)  {
           </SortableContext>
           </Container>
           </DndContext>
-    
+    </div>
      
   );
   function handleDragEnd(event){
@@ -60,6 +51,11 @@ function Services(props)  {
       })
     }
   }
-}
 
+}
 export default Formations;
+
+
+   
+    
+   
