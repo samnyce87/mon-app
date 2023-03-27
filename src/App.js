@@ -1,6 +1,6 @@
 
 import React from "react";
-import './App.css';
+
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
 
 import Accueil from './Pages/Accueil';
@@ -12,6 +12,7 @@ import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Caroussel from './Pages/Caroussel';
 import Calculator from './Pages/Calculator';
+import Calendrier from './Pages/Calendrier';
 
 import Login from "./Login";
 import Register from "./Register";
@@ -30,7 +31,7 @@ function App() {
     <Route path='/Contact' element={<Contact/>}/>
     <Route path='/Caroussel' element={<Caroussel/>}/>
     <Route path='/Calculator' element={<Calculator/>}/>
- 
+    <Route path='/Calendrier' element={<Calendrier/>}/>
     <Route path='/Login' element={<Login/>}/>
     <Route path='/Register' element={<Register/>}/>
 

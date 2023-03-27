@@ -1,4 +1,4 @@
-import './App.css';
+import "../App.css";
 import React from 'react';
 import Menu from '../Menu.js';
 import "bootstrap/dist/css/bootstrap.min.css";
