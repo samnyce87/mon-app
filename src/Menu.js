@@ -40,7 +40,9 @@ function Menu(props) {
             <NavLink to="/Register">
             <li>Register</li>
             </NavLink>
-            
+            <NavLink to="/Video">
+            <li>Video</li>
+            </NavLink>
             </ul>
         </div>
     );

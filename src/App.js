@@ -16,6 +16,7 @@ import Calendrier from './Pages/Calendrier';
 
 import Login from "./Login";
 import Register from "./Register";
+import Video from "./components/Video";
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
     <Route path='/Calendrier' element={<Calendrier/>}/>
     <Route path='/Login' element={<Login/>}/>
     <Route path='/Register' element={<Register/>}/>
-
+    <Route path='/Video' element={<Video/>}/>
   </Routes> 
    </BrowserRouter>
 </div>
