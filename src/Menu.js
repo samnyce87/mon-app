@@ -22,17 +22,17 @@ function Menu(props) {
             <NavLink to='/Services'>
             <li>Services</li>
             </NavLink>
-            <NavLink to='/Formations'>
-            <li>Services</li>
-            </NavLink>
             <NavLink to="/Caroussel">
             <li>Caroussel</li>
             </NavLink>
             <NavLink to="/Calculator">
             <li>Calculator</li>
             </NavLink>
-            <NavLink to="/Calendrier">
+            <NavLink to="/Picker">
             <li>Calendrier</li>
+            </NavLink>
+            <NavLink to="/SortableItem">
+            <li>SortableItem</li>
             </NavLink>
             <NavLink to="/Login">
             <li>Login</li>

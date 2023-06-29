@@ -1,28 +1,25 @@
 import React from 'react';
-import Menu from '../Menu.js';
+import Menu from '../Menu';
 function Contact(props) {
     return (
-        <div>
-            
-           <Menu/> 
-           <h1>Veuillez me contacter</h1>
-           <h3>Mes coordonnées</h3>
-           <br></br>
-  <h4>
-    Adresse : Avenue Guillaume de Greef  295
-    <br></br>
-    Téléphone : 02.458.12.12
-    <br></br>
-    E-mail : samnyce87@hotmail.com
-  </h4>
-           
-           </div>
-
         
-    );
-};
-
-
+      <div className='card card-body mb-3'>
+        <Menu/>
+                <h4>{this.props.nom}</h4>
+                <ul className='list-group'>
+                    <li className='list-group-item'>
+                        Prénom: {this.props.prenom}
+                    </li>
+                    <li className='list-group-item'>
+                        Email: {this.props.email}
+                    </li>
+                    <li className='list-group-item'>
+                        Téléphone: {this.props.tel}
+                    </li>
+                </ul>
+            </div>
+        );
+    }
 
 export default Contact;
 

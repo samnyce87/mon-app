@@ -111,3 +111,10 @@ button:active{
   background: #56cbdb;
 }
 
+img{
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+

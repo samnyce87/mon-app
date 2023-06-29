@@ -1,9 +1,9 @@
 import '../App.css';
 import React, { Component } from 'react';
 import Calendar from 'react-calendar';
-import Menu from '../Menu.js';
+import Menu from '../Menu';
 
-class Calendrier extends Component {
+class Picker extends Component {
     state={
         date:new Date(),
         showDate:false
@@ -24,15 +24,10 @@ class Calendrier extends Component {
             showDate: false
         })
     }
-
-  
-
-
-    render(){
+    render() {
         return (
-
-            
             <div style={{boxShadow:"5px 5px 25px"}}>
+                <Menu/>
                 <div onClick={this.reset}>
                <Calendar
                onChange={this.onChange}
@@ -48,11 +43,10 @@ class Calendrier extends Component {
                     <p>Au : {this.state.date[1].toLocaleDateString()}</p>
             </div>
                ):null}
-               <Menu/>
                </div>
 
         );
     }
 }
 
-export default Calendrier;
+export default Picker;
